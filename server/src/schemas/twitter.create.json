@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "entity": {
+            "type": "string",
+            "minLength": 1
+        },
+        "quantity": {
+            "type": "integer",
+            "optional": true
+        },
+        "lang": {
+            "type": "string",
+            "optional": true
+        },
+        "profile": {
+            "type": "string",
+            "optional": true
+        }
+    },
+    "additionalProperties": false
+}

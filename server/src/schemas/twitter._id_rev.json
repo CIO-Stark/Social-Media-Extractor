@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "_id": {
+            "type": "string"
+        },
+        "_rev": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}
